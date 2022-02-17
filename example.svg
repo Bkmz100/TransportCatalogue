@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <polyline points="164.492,135.162 170,85.4419 147.56,97.7557 164.492,135.162" fill="none" stroke="green" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="170,85.4419 147.56,97.7557 30,30 147.56,97.7557 170,85.4419" fill="none" stroke="rgb(255,160,0)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="164.492" y="135.162" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">297</text>
+  <text fill="green" x="164.492" y="135.162" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">297</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="170" y="85.4419" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">635</text>
+  <text fill="rgb(255,160,0)" x="170" y="85.4419" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">635</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="30" y="30" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">635</text>
+  <text fill="rgb(255,160,0)" x="30" y="30" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">635</text>
+  <circle cx="170" cy="85.4419" r="5" fill="white"/>
+  <circle cx="164.492" cy="135.162" r="5" fill="white"/>
+  <circle cx="30" cy="30" r="5" fill="white"/>
+  <circle cx="147.56" cy="97.7557" r="5" fill="white"/>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="170" y="85.4419" dx="7" dy="-3" font-size="20" font-family="Verdana">Biryulyovo Tovarnaya</text>
+  <text fill="black" x="170" y="85.4419" dx="7" dy="-3" font-size="20" font-family="Verdana">Biryulyovo Tovarnaya</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="164.492" y="135.162" dx="7" dy="-3" font-size="20" font-family="Verdana">Biryulyovo Zapadnoye</text>
+  <text fill="black" x="164.492" y="135.162" dx="7" dy="-3" font-size="20" font-family="Verdana">Biryulyovo Zapadnoye</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="30" y="30" dx="7" dy="-3" font-size="20" font-family="Verdana">Prazhskaya</text>
+  <text fill="black" x="30" y="30" dx="7" dy="-3" font-size="20" font-family="Verdana">Prazhskaya</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="147.56" y="97.7557" dx="7" dy="-3" font-size="20" font-family="Verdana">Universam</text>
+  <text fill="black" x="147.56" y="97.7557" dx="7" dy="-3" font-size="20" font-family="Verdana">Universam</text>
+</svg>
