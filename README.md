@@ -1,9 +1,31 @@
 # TransportCatalogue
 
-Catalogue of transport routes. I/O is done with JSON, map with routes is rendered using self-made SVG library.
+Каталог транспортных маршрутов. Принимает на вход данные JSON-формата и выдает ответ в виде SVG-файла, который визуализирует маршруты. Находит кратчайший маршрут между остановками с помощью ориентированного графа.
 
+# Использование
+
+Для использования необходима установка и настройка требуемых компонентов.
+
+Входные данные поступают программе из stdin в формате JSON-объекта, который имеет на верхнем уровне следующую структуру:
+```
+{
+  "base_requests": [ ... ],
+  "render_settings": { ... },
+  "routing_settings": { ... },
+  "stat_requests": [ ... ]
+}
+```
+
+ЭЭто словарь, содержащий ключи:  
+`base_requests` — массив с описанием автобусных маршрутов и остановок.  
+`stat_requests` — массив с запросами к транспортному справочнику.  
+`render_settings` — словарь для отрисовки изображения.  
+`routing_settings` — словарь, содержащий в себе настройки для скорости автобусов и времени ожидания на остановке.  
+
+
+Пример:
 <details>
-<summary>Input JSON:</summary>
+<summary>Входной JSON:</summary>
 <p>
 
 ```json
@@ -143,7 +165,7 @@ Catalogue of transport routes. I/O is done with JSON, map with routes is rendere
 </details>
 
 <details>
-<summary>Output JSON:</summary>
+<summary>Выходной JSON:</summary>
 <p>
 
 ```json
@@ -224,5 +246,16 @@ Catalogue of transport routes. I/O is done with JSON, map with routes is rendere
 </p>
 </details>
 
-SVG Result:
+Карта маршрутов:
 ![SVG Result](https://github.com/Bkmz100/TransportCatalogue/blob/main/map_example.JPG?raw=true)
+
+# Системные требования
+
+1. C++17 (STL)
+2. GCC (MinGW-w64) 11.2.0
+
+# Планы по доработке
+
+1. Разработать графический интерфейс.
+2. Добавить возможность визуализацию построенного маршрута.
+3. Создать десктопное приложение.
